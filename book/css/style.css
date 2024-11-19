@@ -1,0 +1,70 @@
+/* General Styles */
+body {
+    background: 
+                url('images/bc1.png'); /* Add your image path here */
+    background-size: cover; /* Ensures the image covers the entire viewport */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Keeps the background fixed during scroll */
+    font-family: 'Arial', sans-serif;
+    color: hsla(0, 89%, 44%, 0.74);
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background: #bb4747c9; /* Semi-transparent header background */
+    color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px); /* Adds a blur effect */
+}
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Navigation */
+nav a {
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+    background: rgba(235, 30, 30, 0.8); /* Transparent button background */
+    color: #e71f1fd3;
+    text-decoration: none;
+}
+nav a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: #4e73df;
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    font-size: 0.9rem;
+    color: #555;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+    header p {
+        font-size: 1rem;
+    }
+    nav a {
+        font-size: 0.9rem;
+        margin: 5px;
+    }
+}
